@@ -1,0 +1,70 @@
+.left{
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    top: 18px;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.center{
+    display: block;
+    color: white;
+    width: 40%;
+    margin: 18px auto; 
+}
+.left div{
+    text-align: center;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 6px;
+    top: 18px;
+    color: white;
+}
+header{
+    background-color: darkgray;
+    overflow: auto;
+}
+.button{
+    margin-right:12px ;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left img{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+.navbar li{
+    
+    display: inline-block;
+
+}
+.navbar li a{
+    color:  white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+.navbar li a:hover,.navbar li a:active{
+    text-decoration: underline;
+    color: black;
+
+}
+form{
+    color: blanchedalmond;
+    margin:  50px 250px ;
+    
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.btn:hover{
+      color: blanchedalmond;
+      background-color:black;
+}
